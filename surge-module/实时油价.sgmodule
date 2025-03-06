@@ -1,0 +1,11 @@
+#!name=实时油价
+#!desc=显示本地实时油价
+#!category=面板
+#!arguments=Province:省份,City:城市
+#!arguments-desc=[参数设置]\n\n⓵ Province: 省份。\n\n⓶ City: 城市。\n\n
+
+[Panel]
+YJ = script-name=YJ,update-interval=43200
+
+[Script]
+YJ = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/youjia.js,argument={{{Province}}}/{{{City}}}
