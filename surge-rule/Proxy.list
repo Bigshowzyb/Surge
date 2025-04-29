@@ -14,7 +14,4 @@ PROCESS-NAME,/Applications/MacUpdater.app/Contents/MacOS/MacUpdater
 
 # CleanShot X
 PROCESS-NAME,/Applications/CleanShot X.app/Contents/MacOS/CleanShot X
-DOMAIN-SUFFIX,getcleanshot.com
-DOMAIN-SUFFIX,cleanshot.cloud
-DOMAIN-SUFFIX,cleanshot.com
 DOMAIN-KEYWORD,cleanshot
