@@ -6,25 +6,15 @@
  */
 function operator(proxies, targetPlatform, context) {
 
-    /**
-     * 机场订阅配置清单
-     * singleSubscribeName: 单条订阅(名称)，不是组合订阅！！！
-     * prefix: 当前订阅下所有节点的名称前缀
-     */
-    const airports = [
-        {singleSubscribeName: 'VikingLinks', prefix: 'VikingLinks'},
-        {singleSubscribeName: 'AiFun', prefix: 'AiFun'},
-        {singleSubscribeName: '赔钱机场', prefix: 'Loop'},
-    ]
-
     return proxies.map(proxy => {
-        // _subName: 单条订阅的名称
-        const airport = airports.find(item => proxy._subName === item.singleSubscribeName);
-        if (airport) {
-            proxy.name = airport.prefix + ' - ' + proxy.name;
-        } else {
-            proxy.name = '⚠️' + ' - ' + proxy.name;
-        }
+        /**
+         * _subName: 单条订阅 - 名称 (必填，并且唯一)
+         * _subDisplayName: 单条订阅 - 显示名称
+         * _collectionName: 组合订阅 - 名称 (必填，并且唯一)
+         * _collectionDisplayName: 组合订阅 - 显示名称
+         */
+        proxy.name = proxy._subName + ' * ' + proxy.name;
+
         return proxy;
     })
 }
