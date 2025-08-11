@@ -16,3 +16,6 @@ PROCESS-NAME,/Applications/MacUpdater.app/Contents/MacOS/MacUpdater
 PROCESS-NAME,/Applications/CleanShot X.app/Contents/MacOS/CleanShot X
 DOMAIN-KEYWORD,cleanshot
 DOMAIN,legit.maketheweb.io
+
+# TinyPNG压缩
+DOMAIN-SUFFIX,tinify.com
