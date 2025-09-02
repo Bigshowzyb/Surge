@@ -2,7 +2,7 @@
 #!desc=显示本地实时油价
 #!category=面板
 #!arguments=Province:省份,City:城市
-#!arguments-desc=\n参数详情\n\n1️⃣ Province: 省份( 例如: jiangsu )\n\n2️⃣ City: 城市( 例如: wuxi )
+#!arguments-desc=\n1️⃣ Province: 省份( 例如: jiangsu )\n\n2️⃣ City: 城市( 例如: wuxi )
 
 [Panel]
 YJ = script-name=YJ,update-interval=43200

@@ -1,8 +1,8 @@
 #!name=机场流量信息
 #!desc=显示机场剩余流量信息以及套餐到期日期
 #!category=面板
-#!arguments=NAME-1:机场名称,URL-1:编码后的机场订阅,RESET_Day-1:重置日期,ICON-1:externaldrive.fill.badge.icloud,COLOR-1:#FFB6C1,,NAME-2:机场名称,URL-2:编码后的机场订阅,RESET_Day-2:重置日期,ICON-2:externaldrive.fill.badge.icloud,COLOR-2:#FFB6C1
-#!arguments-desc=\n参数详情\n\n1️⃣ NAME: 机场名称\n\n2️⃣ URL: 编码后的机场订阅\n\n3️⃣ RESET_DAY: 流量每月重置日期,如26号就是26,不设置则不显示流量重置日,仅显示到期日期\n\n4️⃣ ICON: 自定义面板图标,有效的SF Symbol名称,如不设置则默认\n\n5️⃣ COLOR: 自定义图标颜色,有效的颜色HEX编码,如不设置则默认为"#FFB6C1"
+#!arguments=NAME-1:机场名称,URL-1:编码后的机场订阅,RESET_Day-1:重置日期,ICON-1:externaldrive.fill.badge.icloud,COLOR-1:#FFB6C1,NAME-2:机场名称,URL-2:编码后的机场订阅,RESET_Day-2:重置日期,ICON-2:externaldrive.fill.badge.icloud,COLOR-2:#FFB6C1
+#!arguments-desc=\n1️⃣ NAME: 机场名称\n\n2️⃣ URL: 编码后的机场订阅\n\n3️⃣ RESET_DAY: 流量每月重置日期,如26号就是26,不设置则不显示流量重置日,仅显示到期日期\n\n4️⃣ ICON: 自定义面板图标,有效的SF Symbol名称,如不设置则默认\n\n5️⃣ COLOR: 自定义图标颜色,有效的颜色HEX编码,如不设置则默认为"#FFB6C1"
 
 [Panel]
 {{{NAME-1}}}=script-name={{{NAME-1}}},update-interval=3600
