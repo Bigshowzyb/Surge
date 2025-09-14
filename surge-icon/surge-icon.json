@@ -11,6 +11,7 @@
     { "name": "Area", "url": "https://raw.githubusercontent.com/Bigshowzyb/Surge/main/surge-icon/other/Area.png" },
     { "name": "Auto", "url": "https://raw.githubusercontent.com/Bigshowzyb/Surge/main/surge-icon/other/Auto.png" },
     { "name": "Direct", "url": "https://raw.githubusercontent.com/Bigshowzyb/Surge/main/surge-icon/other/Direct.png" },
+    { "name": "Emby", "url": "https://raw.githubusercontent.com/Bigshowzyb/Surge/main/surge-icon/other/Emby.png" },
     { "name": "FaceBook", "url": "https://raw.githubusercontent.com/Bigshowzyb/Surge/main/surge-icon/other/FaceBook.png" },
     { "name": "Global", "url": "https://raw.githubusercontent.com/Bigshowzyb/Surge/main/surge-icon/other/Global.png" },
     { "name": "Google", "url": "https://raw.githubusercontent.com/Bigshowzyb/Surge/main/surge-icon/other/Google.png" },
@@ -53,7 +54,6 @@
     { "name": "FlowerCloud", "url": "https://raw.githubusercontent.com/Bigshowzyb/Surge/main/surge-icon/airport/FlowerCloud.png" },
     { "name": "FlyingBird", "url": "https://raw.githubusercontent.com/Bigshowzyb/Surge/main/surge-icon/airport/FlyingBird.png" },
     { "name": "Kuromis", "url": "https://raw.githubusercontent.com/Bigshowzyb/Surge/main/surge-icon/airport/Kuromis.png" },
-    { "name": "Aifun", "url": "https://raw.githubusercontent.com/Bigshowzyb/Surge/main/surge-icon/airport/Aifun.png" },
     { "name": "VikingLinks", "url": "https://raw.githubusercontent.com/Bigshowzyb/Surge/main/surge-icon/airport/VikingLinks.png" }
 
   ]
