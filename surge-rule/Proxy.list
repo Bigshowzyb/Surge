@@ -16,3 +16,6 @@ DOMAIN,legit.maketheweb.io
 
 # TinyPNG压缩
 DOMAIN-SUFFIX,tinify.com
+
+# 影巢
+DOMAIN-SUFFIX,hdhive.com
