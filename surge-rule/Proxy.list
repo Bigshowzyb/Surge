@@ -1,7 +1,4 @@
-# NAME: 需要走代理的规则
-
-# macOS icons图标网站
-DOMAIN-SUFFIX,back4app.com
+# 规则: 使用代理
 
 # MacKed软件下载
 DOMAIN-SUFFIX,macked.app

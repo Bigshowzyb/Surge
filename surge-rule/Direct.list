@@ -1,1 +1,4 @@
-# NAME: 不需要走代理的规则
+# 规则: 直连
+
+# ImmTelecom 机场: 订阅节点
+DOMAIN,api.prodigal4936.com
